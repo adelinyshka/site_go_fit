@@ -1,0 +1,12 @@
+include ./../../blocks/button/button.pug
+include __menu/first__menu
+include __title/first__title.pug
+.first hello
+	+white_menu()
+	.m-5
+	.container-fluid
+		.row.justify-content-end
+			.offset-col-8.col-5
+				+first-title('Предлагаем вам уникальный курс для правильного и эффективного похудения!')
+	.m-5
+	+red_button('Купить')

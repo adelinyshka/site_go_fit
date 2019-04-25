@@ -1,0 +1,25 @@
+//- впишите необходимые данные в переменные vars
+block vars
+	- var title2= 'Про Похудение';
+	- var description2= 'Курс по похудению';
+	- var charset2= 'UTF-8'
+	- var keywords2= 'как похудеть, сбросить вес, курс по снижению веса';
+	- var stylesheet2= 'template.scss'
+
+doctype html
+html(lang='ru')
+	head
+		meta(charset=charset2)
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(http-equiv='X-UA-Compatible', content='ie=edge')
+		meta(name='description' content=description2)
+		meta(name='keywords' content =keywords2)
+		title #{title2}
+		link(rel='stylesheet', href=stylesheet2)
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+		<script src="https://wubook.net/js/wblib.jgz"></script>
+
+
+	body
+		block content
