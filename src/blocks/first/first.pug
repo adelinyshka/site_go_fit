@@ -1,12 +1,17 @@
 include ./../../blocks/button/button.pug
 include __menu/first__menu
 include __title/first__title.pug
-.first hello
+include __text/first__text.pug
+
+.first
 	+white_menu()
-	.m-5
 	.container-fluid
 		.row.justify-content-end
-			.offset-col-8.col-5
+			.col-7.p-5
 				+first-title('Предлагаем вам уникальный курс для правильного и эффективного похудения!')
-	.m-5
-	+red_button('Купить')
+				.p-5
+				+first__text('Но если вы ищите очередное волшебное средство для похудения? Тогда этот курс не для вас! Материал предназначен для тех, кто устал испытывать на себе множество дорогостоящих и порой опасных методик и модных диет для уничтожения лишних килограммов.')
+				.m-5
+				.m-5.text-center
+					+red_button('заказать')
+				.m-5

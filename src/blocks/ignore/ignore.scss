@@ -1,0 +1,19 @@
+.ignore {
+  background: url('__images/white_woman_left.jpg');
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+  background-position: top center;
+}
+.ignore ul {
+  max-width: 60%;
+}
+
+.ignore ul li {
+  list-style: none;
+  background: url('./__list/question.png') no-repeat 0 14px;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  padding: 20px 0 20px 80px;
+  font-weight: bold;
+}
