@@ -1,7 +1,14 @@
 .result {
-  background: url('artsfon.jpg');
+  background: url('artsfon.jpg') center center;
   width: 100%;
   height: auto;
   color: white;
   background-size: cover;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .result {
+    background: url('artsfon.jpg') right center;
+  }
 }

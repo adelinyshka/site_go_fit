@@ -9,14 +9,19 @@
   letter-spacing: -0.5px;
 }
 .for_whom__text--center{
-  font: normal 1.4rem/1.7 Exo;
-  //letter-spacing: 1px;
+  font: bold 1.4rem/1.7 Exo;
   line-height: 2;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .for_whom__text--center{
+    font: normal 1.2rem/1.5 Exo;
+    line-height: 2;
+  }
+}
 
 .for_whom ul {
-  max-width: 60%;
+  max-width: 100%;
   padding-left:0;
 }
 

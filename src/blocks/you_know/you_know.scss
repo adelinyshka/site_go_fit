@@ -14,3 +14,10 @@
 span.black {
   color: black
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .you_know__title {
+    font-size: 1.3em;
+  }
+
+}
