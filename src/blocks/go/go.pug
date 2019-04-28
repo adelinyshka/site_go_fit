@@ -1,0 +1,17 @@
+include ./../../blocks/button/button.pug
+include ./../../blocks/countdown/countdown.pug
+
+.go.text-center
+	.go--white-bg
+		.go__title.p-5
+			| Действуй сейчас!
+		.go__subtitle.pb-3
+			| до конца акции осталось
+		+counter2()
+		.go__old-price.pt-5
+			| 1 299 рублей
+		.go__new-price.pb-3
+			| 799 рублей
+		+red_button('ЗАКАЗАТЬ')
+		.go__text.p-5
+			| Сразу после оплаты Вам придет письмо со ссылкой на курс на ту почту, которую вы оставите при заказе.
