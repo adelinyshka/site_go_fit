@@ -6,3 +6,14 @@
 .say_yes__text {
   font: normal 1.3rem/1.4 Exo;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .say_yes {
+    max-width: 100%;
+    margin: 0 auto;
+    color: black;
+  }
+  .say_yes__text {
+    font: normal 1.1rem/1.4 Exo;
+  }
+}

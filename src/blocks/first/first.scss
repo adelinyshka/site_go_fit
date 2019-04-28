@@ -10,9 +10,9 @@
   background: transparent;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 991px) {
   .first {
-    background: url('__images/1st_screen_woman.jpg');
+    background: url('__images/1st_screen_woman-md.jpg');
     height: auto;
     max-width: 100%;
     background-size: cover;
@@ -20,7 +20,11 @@
     color: black
   }
 
+}
+
+@media (min-width: 320px) and (max-width: 776px) {
   .first__bg {
     background: rgba(255,255,255,0.5);
   }
 }
+

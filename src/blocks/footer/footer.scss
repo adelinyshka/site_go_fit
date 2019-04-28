@@ -2,10 +2,18 @@
   background: url('footer_bg.jpg') no-repeat 50% 80%;
   background-size: cover;
   width: 100%;
-  hieght: auto;
+  height: auto;
 }
 .footer__text {
-  font: bold 1.5rem/1.7 Exo;
+  font: bold 1rem/1.7 Exo;
   color: white;
   text-transform: uppercase;
+  background-color: black;
+  padding: 2px;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .footer__text {
+    font: bold 0.8rem/1.7 Exo;
+  }
 }
