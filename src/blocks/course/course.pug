@@ -2,12 +2,12 @@ include ./../course/__title/course__title.pug
 include ./../course/__text-left/course__text-left.pug
 include ./../course/__text-right/course__text-right.pug
 include ./../../blocks/button/button.pug
-.course.p-5
+.course.pl-5.pr-5.pt-3
 	.text-center
 		+title('Курс «Похудение от А до Я»')
 	.container-fluid
 		.row
-			.col-4
+			.col-lg-4.col-md-12
 				+text-left('Это не очередное волшебное средство для похудения, а неповторимая находка для мужчин и женщин, избыточная масса тела которых мешает личной жизни, успешности и повышению самооценки!')
 				.m-5
 				+text-left('Это реально работающее пошаговое руководство, которое превратит ваше тело в предмет гордости, а не стыда или разочарования!')
@@ -22,9 +22,9 @@ include ./../../blocks/button/button.pug
 					li 25 кадр
 					li И прочие бесполезные вещи!!
 
-			.offset-4.col-4
+			.offset-lg-4.col-lg-4.offset-0.col-12.mt-5.mt-lg-0
 				+text-right('Курс разработан спортсменом - психологом и построен на тех же принципах что и спортивное похудение. \n' +
-        'Автор курса: Андрей Коулис.\n' +
+        'Автор курса: Владимир Козлов.\n' +
         '\n' +
         '\n')
 		.text-center.p-5

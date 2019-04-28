@@ -4,3 +4,22 @@
   color: white;
   line-height: 150%;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .first__text--style {
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: white;
+    line-height: 110%;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .first__text--style {
+    font-weight: normal;
+    font-size: 1.1rem;
+    color: black;
+    line-height: 100%;
+  }
+}

@@ -6,3 +6,23 @@
   font-family: Exo;
   text-align: center;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .first-title__h1 {
+    font-size: 1.8rem;
+    line-height: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .first-title__h1 {
+    font-size: 1.4rem;
+    line-height: 100%;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+}

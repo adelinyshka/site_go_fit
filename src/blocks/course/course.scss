@@ -5,3 +5,10 @@
   height: auto;
   color: white;
 }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .course {
+    background: url('black_woman_center.jpg') center 70%;
+  }
+
+}

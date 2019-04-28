@@ -5,3 +5,22 @@
   background-size: cover;
   background-position: center center;
 }
+
+.first__bg {
+  background: transparent;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .first {
+    background: url('__images/1st_screen_woman.jpg');
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+    background-position: 20% center;
+    color: black
+  }
+
+  .first__bg {
+    background: rgba(255,255,255,0.5);
+  }
+}
