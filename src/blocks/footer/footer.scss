@@ -1,5 +1,11 @@
-//.footer {
-//  background: url('');
-//}
-//.footer__text
-//.footer__text--down
+.footer {
+  background: url('footer_bg.jpg') no-repeat 50% 80%;
+  background-size: cover;
+  width: 100%;
+  hieght: auto;
+}
+.footer__text {
+  font: bold 1.5rem/1.7 Exo;
+  color: white;
+  text-transform: uppercase;
+}
